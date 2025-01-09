@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+            background-color: #f4f7fc;
+            color: #444;
+        }
+       header{
+        background-color: #FF6F61;
+        text-align: center;
+        padding: 30px 0px ;
+        color: white;
+       } 
+       header h1{
+        margin: 0px;
+        font-size: 2.5rem;
+
+       }
+       nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 12px 0;
+        }
+       nav a{
+        text-decoration: none;
+        color: white;
+        letter-spacing:0.5px;
+        margin-right: 20px;
+
+        
+       }
+       nav a:hover{
+        color: orange;
+        text-decoration: underline;
+       }
+
+       nav{
+        background-color: black;
+       }
+       section{
+        border-radius: 8px;
+        box-shadow: 0,0,0,0,0.1;
+        background-color: #ffffff;
+        padding: 30px; 
+        margin: 20px auto;
+
+
+       }
+       section:hover{
+        box-shadow: 0 6px 18px rgb(201, 199, 199);
+       }
+       section h2 {
+            color: #FF4500;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f1f1f1;
+            font-weight: 600;
+            color: #333;
+        }
+         ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            font-size: 1.2rem;
+        }
+        ul li strong {
+            color: #FF4500;
+        }
+        form {
+            max-width: 650px;
+            margin: 50px auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color: #FF4500;
+            outline: none;
+        }
+        form button {
+            background-color: #FF4500;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 1s ease;
+        }
+        form button:hover {
+            background-color: #C8372D;
+        }
+        form button:active {
+            background-color:tomato;
+        }
+        img{
+            width: 500px;
+            height: 300px;
+            float: right;
+            margin-top: -30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Doremon Anime Event</h1>
+        <p>The Ultimate Celebration for Doremon Fans!</p>
+
+    </header>
+    <nav class="navbar">
+        <a href="">About</a> |
+        <a href="">Schedule</a>|
+        <a href="">Contact</a>|
+        <a href="">Login</a>
+
+    </nav>
+    <section id="About">
+        <h2>About the Event</h2>
+        <p>The popular children's anime Doraemon will get a film festival all to itself in February next year. From February 1 to March 5, Shogakukan's Jimbocho Theater will screen all 39 Doraemon films, plus 14 short films/specials that were initially screened alongside the feature films. All films that were released before 2010 will be screened with 35 mm film.</p>
+
+    </section>
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Hosted by Doraemon Voice Actors</td>
+                </tr>
+                <tr>
+                    <td>11:30 AM</td>
+                    <td>Doraemon Episode Screening</td>
+                    <td>Fan-Favorite Episodes</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>Enjoy Dorayaki Pancake</td>
+                </tr>
+                <tr>
+                    <td>2:30 PM</td>
+                    <td>Cosplay Contest</td>
+                    <td>Doremon Friends </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="characters">
+        <h2>Meet the Characters</h2>
+        <img src="/08-01-2025/Pictures/group of doraemon.jpg"/>
+        <ul>
+            <li><strong>Doraemon:</strong>He is the main, titular character of show</li>
+            <li><strong>Noby Nobita:</strong>He is the protagonist of the Doraemon series.</li>
+            <li><strong>Shizuka Minamoto:</strong>She is one of the main characters in the series, being the main female character.  </li>
+            <li><strong>Doremi:</strong> She is the sister of Doraemon. </li>
+            <li><strong>Gian:</strong>Gian is known for his overconfidence in his terrible singing and cooking skills. </li>
+            <li><strong>Soby Nobi:</strong>  He came to the present world with Doraemon to help Nobita with his future problems. </li>
+            <li><strong>Suneo:</strong> He is a spoiled rich kid who likes to show off his cool stuff to his friends and make them jealous.  </li>
+
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label >Name:</label>
+            <input type="text" >
+            <label >Email:</label>
+            <input type="email">
+            <label >Message:</label>
+            <textarea id="message"  rows="4"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+   
+</body>
+</html>
